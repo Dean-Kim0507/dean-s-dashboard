@@ -4,15 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "npm start",
+    "dev:client": "cd fe && npm start",
     "start": "nodemon ./bin/www",
     "debug": "nodemon  --inspect ./bin/www",
     "seed": "node db/seed.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install      --prefix fe && npm run build --prefix fe"
+    "heroku-postbuild": "cd fe && npm install && npm run build"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "concurrently": "^6.4.0",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
