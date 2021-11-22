@@ -1,14 +1,5 @@
 const Sequelize = require("sequelize");
-// const config =
 
-// const db = new Sequelize(
-//   process.env.DATABASE_URL,
-//   config.username,
-//   config.password,
-//   config
-// );
-
-// module.exports = db;
 let db = null;
 if (process.env.DATABASE_URL) {
   db = new Sequelize(process.env.DATABASE_URL, {
