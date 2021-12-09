@@ -1,13 +1,15 @@
 # Dean-s-dashboard
 Link: https://dean-dashboard.herokuapp.com/
-Basic demo responsive dashboard 
+<br />
+Basic demo responsive dashboard with quote list and mocked cards.
 
 ## Stack
-Front - React, Redux
-Backend - Nodejs, Express
-DB - Postgre SQL
-
+Front - React, Redux <br/>
+Backend - Nodejs, Express <br />
+DB - Postgre SQL (deploy to Heroku cloud)
+Normalized Databse
 ## Database ERD
+![Untitled](https://user-images.githubusercontent.com/68558143/145468349-c352decc-a1c5-437b-a676-93ef88855a38.jpg)
 
 ## Initial Setup
 
