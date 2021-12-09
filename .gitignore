@@ -2,7 +2,7 @@
 
 # dependencies
 node_modules/
-
+Fe/node_modules
 
 # production
 .env
