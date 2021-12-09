@@ -6,7 +6,7 @@ import {
   withRouter,
 } from "react-router-dom";
 import Dashboard from "./views/Dashboard";
-import MainLayout from "./layout/MainLayout/";
+import MainLayout from "./layout/MainLayout";
 import { Box } from "@mui/material";
 import { quoteData } from "./_store/utils/reducerFunctions";
 import { connect } from "react-redux";

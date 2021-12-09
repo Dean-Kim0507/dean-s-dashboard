@@ -207,7 +207,7 @@ const Nav = () => {
             component="div"
             sx={{ display: { xs: "none", sm: "block" } }}
           >
-            WetBat
+            Dean's
           </Typography>
           <Box sx={{ flexGrow: 1 }} />
           <Search sx={{ mr: 4 }}>
