@@ -3,7 +3,7 @@ Link: https://dean-dashboard.herokuapp.com/
 <br />
 Basic demo responsive dashboard with quote list and mocked cards.
 
-## Stack
+## Technologies
 Front - React, Redux <br/>
 Backend - Nodejs, Express <br />
 DB - Postgre SQL (deploy to Heroku cloud)
